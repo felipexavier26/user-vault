@@ -70,12 +70,7 @@ Este projeto é uma aplicação web desenvolvida com o Laravel que permite o ger
     DB_USERNAME=root
     DB_PASSWORD=
 
-
-5. **Crie um arquivo .env a partir do arquivo .env.example:**
-   ```bash
-   cp .env.example .env
-
-6. **Gere a key e rode as migrations:**
+7. **Gere a key e rode as migrations:**
    ```bash
    php artisan key:generate
    php artisan migrate
